@@ -1,11 +1,5 @@
 # user-anonimize
 
-Overrides Contributors widget to show User ID instead of Full Name.
-
-Contributors summary widget is no longer a link to the user profile.
-
-No configuration is needed. If this plugin is deployed, contributors are anonimized.
-
 
 #Synopsis
 

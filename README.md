@@ -1,4 +1,4 @@
-# user-anonimize
+# athento-nx-user-anonimize
 
 
 #Synopsis
@@ -11,8 +11,8 @@ Also, contributors are no longer a link to the user profile.
 
 You just have to compile the pom.xml using Maven and deploy the plugin in. To do this, you must use the following script:
 
-	cd user-anonimize-master
+	cd athento-nx-user-anonimize
 	mvn clean install
-	cp target/Download_Log-*.jar $NUXEO_HOME/nxserver/plugins
+	cp target/athento-nx-user-anonimize-*.jar $NUXEO_HOME/nxserver/plugins
 
 And then, restart your nuxeo server and enjoy.

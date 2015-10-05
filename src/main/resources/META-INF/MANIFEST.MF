@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Bundle-SymbolicName: org.athento.nuxeo.layout
+Bundle-SymbolicName: org.athento.nuxeo
 Bundle-Version: 1.0.0
 Bundle-Name: User Anonimize
 Require-Bundle: org.nuxeo.runtime
 Bundle-ManifestVersion: 2
 Bundle-Vendor: Athento
-Nuxeo-Component: OSGI-INF/Automation/User-actions/actions-contrib.xml
+Nuxeo-Component:
 Created-By: Athento

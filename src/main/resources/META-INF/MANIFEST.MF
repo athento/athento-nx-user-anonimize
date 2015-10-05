@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-SymbolicName: org.athento.nuxeo
 Bundle-Version: 1.0.0
-Bundle-Name: User Anonimize
+Bundle-Name: Athento NX User Anonimize
 Require-Bundle: org.nuxeo.runtime
 Bundle-ManifestVersion: 2
 Bundle-Vendor: Athento

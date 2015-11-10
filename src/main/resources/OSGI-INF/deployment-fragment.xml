@@ -8,23 +8,8 @@
 	<require>all</require>
 	<install>
 		<delete path="${bundle.fileName}.tmp" />
-		<unzip from="${bundle.fileName}" to="${bundle.fileName}.tmp" />
-		<unzip from="${bundle.fileName}" to="/" prefix="web">
-			<include>**/*.properties</include>
-		</unzip>	
-		<copy from="${bundle.fileName}.tmp/web/nuxeo.war" to="/" />
-		<append from="${bundle.fileName}.tmp/data/i18n/messages_en_EN.properties"
-			to="nuxeo.war/WEB-INF/classes/messages_en_EN.properties" addNewLine="true" />
-		<append from="${bundle.fileName}.tmp/data/i18n/messages_en_EN.properties"
-			to="nuxeo.war/WEB-INF/classes/messages_en.properties" addNewLine="true" />
-		<append from="${bundle.fileName}.tmp/data/i18n/messages_es_ES.properties"
-			to="nuxeo.war/WEB-INF/classes/messages_es.properties" addNewLine="true" />
-		<append from="${bundle.fileName}.tmp/data/i18n/messages_es_ES.properties"
-			to="nuxeo.war/WEB-INF/classes/messages_es_ES.properties" addNewLine="true" />
-		<append from="${bundle.fileName}.tmp/data/i18n/messages_pt_PT.properties"
-			to="nuxeo.war/WEB-INF/classes/messages_pt_PT.properties" addNewLine="true" />
-		<append from="${bundle.fileName}.tmp/data/i18n/messages_pt_PT.properties"
-			to="nuxeo.war/WEB-INF/classes/messages_pt.properties" addNewLine="true" />
+		<unzip from="${bundle.fileName}" to="${bundle.fileName}.tmp" />		
+		<copy from="${bundle.fileName}.tmp/web/nuxeo.war" to="/" />		
 		<delete path="${bundle.fileName}.tmp" />
 	</install>
 </fragment>

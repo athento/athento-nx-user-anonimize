@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.athento.nuxeo</groupId>
   <artifactId>athento-nx-user-anonimize</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <name>Athento NX User Anonimize</name>
   <description>Athento NX User Anonimize shows User ID instead of Full Name of users in UI for non-admin users.</description>
 </project>
